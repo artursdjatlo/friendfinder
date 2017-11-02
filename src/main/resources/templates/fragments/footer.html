@@ -15,16 +15,10 @@
 
 </head>
 <body>
-<div id="container">
-    <div id="header" >
-        <div th:replace="fragments/menu :: main"></div>
-    </div>
-    <div id="body">
-        <h1>Friend Finder</h1>
-    </div>
-    <div id="footer" class="w3-blue">
-        <div th:replace="fragments/footer :: main"></div>
-    </div>
+
+<div th:fragment="main">
+    <p>Friend Finder Ltd</p>
 </div>
+
 </body>
 </html>
