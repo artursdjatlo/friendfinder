@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <!--[if IE 5.500]>
+    <link rel="stylesheet" href="/css/ie.css"/>
+    <![endif]-->
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/css/ie.css"/>
+    <![endif]-->
+
+</head>
+<body>
+<div id="container">
+    <div id="header" >
+        <div th:replace="fragments/menu :: main"></div>
+    </div>
+    <div id="body">
+        <h1>My Friends</h1>
+    </div>
+    <div id="footer" class="w3-blue">
+        <div th:replace="fragments/footer :: main"></div>
+    </div>
+</div>
+</body>
+</html>

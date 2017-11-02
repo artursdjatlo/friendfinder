@@ -21,10 +21,14 @@
     <a href="/findfriends" class="w3-bar-item w3-button w3-hover-light-blue">Find Friends</a>
     <a href="/myfriends" class="w3-bar-item w3-button w3-hover-light-blue">My Friends</a>
     <a href="/myevents" class="w3-bar-item w3-button w3-hover-light-blue">My Events</a>
-    <a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser == null}">Log in</a>
-    <a href="/logout" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}">Log out</a>
-    <a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}" th:text="${currentUser.fullName}">User Name</a>
-    <a href="/manage" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}">Manage</a>
+    <a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue">Log in</a>
+    <!--<a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser == null}">Log in</a>-->
+    <a href="/logout" class="w3-bar-item w3-button w3-right w3-hover-light-blue">Log out</a>
+    <!--<a href="/logout" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}">Log out</a>-->
+    <a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue">User Name</a>
+    <!--<a href="/profile" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}" th:text="${currentUser.fullName}">User Name</a>-->
+    <a href="/manage" class="w3-bar-item w3-button w3-right w3-hover-light-blue">Manage</a>
+    <!--<a href="/manage" class="w3-bar-item w3-button w3-right w3-hover-light-blue" th:if="${currentUser != null}">Manage</a>-->
 </div>
 
 </body>
